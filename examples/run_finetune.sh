@@ -5,7 +5,7 @@
 set -euo pipefail
 
 stage=0
-stop_stage=1
+stop_stage=0
 
 # ====== Modify as needed ======
 # GPUs to use
