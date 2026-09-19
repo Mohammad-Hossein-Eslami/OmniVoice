@@ -47,6 +47,6 @@
 
     "logging_steps": 50,
     "eval_steps": 500,
-    "save_steps": 500,
+    "save_steps": 2500,
     "keep_last_n_checkpoints": -1
 }
