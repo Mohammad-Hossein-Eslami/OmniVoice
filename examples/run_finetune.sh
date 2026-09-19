@@ -9,15 +9,15 @@ stop_stage=1
 
 # ====== Modify as needed ======
 # GPUs to use
-GPU_IDS="0,1"
-NUM_GPUS=2
+GPU_IDS="0"
+NUM_GPUS=1
 
 # Path to your input JSONL file
 # (each line: {"id": ..., "audio_path": ..., "text": ..., "language_id": ...})
 TRAIN_JSONL="data/my_data_train.jsonl"
 
 # Path to your dev JSONL file. Set to empty string to skip dev set.
-DEV_JSONL="data/my_data_dev.jsonl"
+DEV_JSONL=""
 
 # Directory to write tokenized WebDataset shards
 TOKEN_DIR="data/finetune/tokens"
