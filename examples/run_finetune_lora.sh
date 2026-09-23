@@ -19,7 +19,7 @@ NUM_GPUS=1
 TRAIN_JSONL="data/my_data_train.jsonl"
 
 # Path to your dev JSONL file. Set to empty string to skip dev set.
-DEV_JSONL=""
+DEV_JSONL="data/my_data_dev/jsonl"
 
 # Directory to write tokenized WebDataset shards
 TOKEN_DIR="data/finetune/tokens"
