@@ -22,7 +22,7 @@
     "lora_dropout": 0.1,
     "lora_bias": "none",
     "lora_target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
-    "lora_modules_to_save": ["audio_embeddings", "audio_heads", "embed_tokens"],
+    "lora_modules_to_save": ["audio_embeddings", "audio_heads"],
 
     "learning_rate": 5e-5,
     "weight_decay": 0.01,
@@ -34,7 +34,7 @@
     "warmup_steps": 250,
 
     "attn_implementation": "sdpa",
-    "max_sample_tokens": 2000,
+    "max_sample_tokens": 3000,
     "min_sample_tokens": 50,
     "max_batch_size": 64,
 
